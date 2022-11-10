@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    font-family: "Oxygen";
+}
+body {
+    background-color: #fff;
+    margin:0;
+    padding:0;
+}
+body a {
+    text-decoration: none;
+}
+.navbar {
+    background-color: grey;
+    border:2px solid #000;
+}
+.navbar-brand {
+    padding: 1vw;
+    font-weight: bold;
+    font-size: 1.5rem !important;
+}
+.our-menu {
+    font-weight: bold;
+    margin: 2vw 0vw;
+    font-size:1.5rem;
+}
+.submenu-item {
+    background-color: grey; 
+    padding:1vw;
+    margin: 1vw 0.25rem;
+}
+.submenu-item h4 {
+    font-weight:bold;
+    color:#000;
+}
+#menu-bar-toggle {
+    border:1px solid #000;
+    color:#000;
+    position:relative;
+}
+#menu-bar-toggle span {
+    color:#000;
+}
+.navbar-nav {
+    position: relative;
+    background-color: #fff;
+    margin-left: -13px;
+    margin-right: -13px;
+    padding:0;
+    margin-bottom: -10px;
+    border: 2px solid #000;
+    margin-top: 10px;
+}
+.navbar-nav .nav-item {
+    text-align: center;
+}
+.nav-item {
+    border-bottom: 2px solid #000;
+}
+.navbar-nav:last-child {
+    border-bottom:0 !important;
+}
+#navbar-item{
+    color:#000;
+    font-size:1rem;
+    font-weight: bold;
+}
+.submenu-item p {
+    padding:1vw;
+}
+@media (max-width:767px) {
+    .submenu-item {
+    margin: 2vw 0.25rem;
+}
+}
